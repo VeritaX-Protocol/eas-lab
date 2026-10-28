@@ -1,0 +1,22 @@
+{
+  "name": "eas-lab-03-lectura-verificacion",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "leer": "tsx scripts/leer.ts",
+    "casos": "tsx scripts/crear-casos.ts",
+    "test": "node --import tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ethereum-attestation-service/eas-sdk": "2.10.0",
+    "dotenv": "18.0.9",
+    "ethers": "6.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  }
+}

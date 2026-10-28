@@ -1,0 +1,7 @@
+{
+  "84532": {
+    "uid": "0xab779f9c4f2c7b74c641b47d18859882c218f6ef598e05686721b14b6d913008",
+    "version": 1,
+    "texto": "bytes32 certificadoId, string plantillaArweaveId, bytes32 hashPlantilla, bytes32 hashDatos, string codigoCurso, uint64 fechaEmision, uint64 vigenciaHasta"
+  }
+}

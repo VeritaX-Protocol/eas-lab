@@ -40,7 +40,7 @@ Antes de empezar un ejercicio, lee este archivo y el archivo del ejercicio pedid
 5. **Seguridad:** nunca imprimas una llave privada completa, nunca hagas commit de `.env.local`, nunca uses mainnet.
 6. **Si algo falla, no lo parches en silencio.** Explica el error, la causa y qué cambiaste.
 7. **Ante una duda de diseño, pregunta** en vez de decidir.
-8. **Al terminar:** ejecuta el criterio de éxito, escribe `NOTA.md` en la carpeta del ejercicio con la plantilla de abajo, muestra un resumen "Qué aprendí" y **detente a esperar** que el usuario revise.
+8. **Al terminar:** ejecuta el criterio de éxito, escribe el `README.md` (qué hace y cómo se corre) y `NOTA.md` en la carpeta del ejercicio con la plantilla de abajo, muestra un resumen "Qué aprendí" y **detente a esperar** que el usuario revise.
 
 ### Dos modos de trabajo (elige por ejercicio)
 
@@ -87,6 +87,7 @@ resultados/
     src/                  (config, wallets y demás módulos propios del ejercicio)
     scripts/              (los scripts que se ejecutan: generar-wallets.ts, conectar.ts, ...)
     test/                 (pruebas con node:test, en .test.ts)
+    README.md             (qué hace el ejercicio y cómo correrlo; ver regla 8)
     NOTA.md               (la nota del ejercicio, con la plantilla de la sección 7)
   02-schema-attestation/
     ... (misma forma)
@@ -102,6 +103,8 @@ Reglas:
 5. **Dependencias:** cada ejercicio instala solo las suyas, con versiones fijas, y las anota en `NOTA.md`. Con `"type": "module"`, las rutas se resuelven dentro del propio ejercicio.
 6. Crea la carpeta al empezar el ejercicio, no antes, y no crees las de ejercicios posteriores.
 7. Las rutas de los archivos de ejercicio (`shared/...`, `notas/NN.md`, `ejercicios/NN-.../`) se **leen relativas a la carpeta del ejercicio**: `shared/x.js` pasa a `src/x.ts`, `notas/NN.md` pasa a `NOTA.md` y `ejercicios/NN-nombre/y.js` pasa a `scripts/y.ts`. Toda extensión `.js` de las especificaciones se escribe `.ts`. Esta sección prevalece sobre las rutas de cada archivo.
+
+8. **Cada ejercicio trae su `README.md`** en su carpeta de resultados (`resultados/NN-nombre/README.md`), escrito en español, que explica: (a) qué hace el ejercicio y qué concepto ilustra, (b) los requisitos previos (fondos, `.env.local`, datos de entrada), (c) cómo correrlo paso a paso (instalación, scripts, pruebas y revisión de tipos), (d) qué salida esperar y los casos negativos probados. Es distinto de `NOTA.md`: el README dice *cómo usarlo*; la nota registra *qué se aprendió*.
 
 ### 5.1 Lenguaje: TypeScript (obligatorio)
 

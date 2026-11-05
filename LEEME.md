@@ -2,11 +2,11 @@
 
 ## 1. Contexto del laboratorio (léelo siempre)
 
-`eas-lab` es el laboratorio de calentamiento de EAS de la organización VeritaXProtocol. Son ejercicios cortos y **desechables** para aprender las bases de EAS (Ethereum Attestation Service) en **Base Sepolia** antes de construir el producto: certificados, diplomas y carnets verificables.
+`eas-lab` es un **laboratorio conceptual** de la organización VeritaX-Protocol. **No es código de producto.** Son ejercicios cortos y **desechables** para entender las bases de EAS (Ethereum Attestation Service) en **Base Sepolia** y qué sigue vigente, para tener criterio al diseñar el motor propio de VeritaX (que corre sobre Stellar) y sus posibles adaptadores futuros. Lo explorado aquí puede diferir del diseño final.
 
-Cubre solo EAS: conexión, schemas, attestations, lectura, revocación, hash con sal, resolver, emisión directa, modo off-chain y costos. Los otros temas viven en otros repositorios de la organización (otros laboratorios y los repos finales de API y frontend). Aquí no hay Arweave, PDF/QR, cifrado de datos ni interfaces web.
+Cubre solo EAS: conexión, schemas, attestations, lectura, revocación, hash con sal, resolver, emisión directa, modo off-chain y costos. Otros temas viven en otros repositorios de la organización. Aquí no hay Arweave, PDF/QR, cifrado de datos ni interfaces web.
 
-### Decisiones ya tomadas
+### Decisiones del laboratorio (no del producto)
 
 | Tema | Decisión |
 |---|---|
@@ -19,7 +19,7 @@ Cubre solo EAS: conexión, schemas, attestations, lectura, revocación, hash con
 | Contratos | Hardhat 3 (no Foundry) |
 | Idioma | Explicaciones en español; código y nombres técnicos en inglés |
 
-## 2. Principios no negociables (constitución preliminar)
+## 2. Principios del laboratorio
 
 1. Ningún dato personal en la cadena. Jamás.
 2. El hash siempre lleva una sal aleatoria única por certificado. Nunca `hash(cédula)` a secas.
@@ -27,7 +27,7 @@ Cubre solo EAS: conexión, schemas, attestations, lectura, revocación, hash con
 4. **Solo testnet y llaves de prueba.** Nunca mainnet, nunca llaves reales en estos ejercicios.
 5. Todo certificado es revocable.
 6. La verificación distingue estados y muestra disclaimers. "No encontrado" no significa "falso".
-7. El código de los spikes es desechable. No pasa a producción sin pasar por una especificación.
+7. El código de los spikes es desechable. No se reutiliza como producto.
 
 ## 3. Reglas para Claude Code
 

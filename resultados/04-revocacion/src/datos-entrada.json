@@ -1,0 +1,7 @@
+{
+  "_origen": "Copiado del ejercicio 02 (src/schemas.json y NOTA.md). Schema v1 y la attestation de ejemplo de emisorA.",
+  "84532": {
+    "schemaUID": "0xab779f9c4f2c7b74c641b47d18859882c218f6ef598e05686721b14b6d913008",
+    "attestationEjemplo": "0x0ab8937683b61e06eea1d360ece4423874bab9d91c474920750ae5b42fa0edb7"
+  }
+}

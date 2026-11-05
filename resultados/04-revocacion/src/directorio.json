@@ -1,0 +1,4 @@
+{
+  "_nota": "Directorio de entidades registradas: direccion de wallet (minusculas) -> datos. emisorA esta registrado; emisorB NO, a proposito. Datos de prueba.",
+  "0x469582501001a156858ccd546ad298a29d59c5d0": { "nombre": "Entidad de Prueba A", "nit": "900000001-0" }
+}

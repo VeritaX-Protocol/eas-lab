@@ -17,7 +17,7 @@ Cada ejercicio es un proyecto TypeScript autocontenido en `resultados/NN-nombre/
 | 01 | [Conexión, wallets y fondos](ejercicios/ejercicio-01-conexion.md) | Provider vs signer, chainId, contratos de EAS | Hecho · [resultado](resultados/01-conexion/) |
 | 02 | [Schema y primera attestation](ejercicios/ejercicio-02-schema-attestation.md) | Qué es un schema, UID determinista, crear una attestation | Hecho · [resultado](resultados/02-schema-attestation/) |
 | 03 | [Lectura y verificación](ejercicios/ejercicio-03-lectura-verificacion.md) | Leer por UID y devolver un estado claro | Hecho · [resultado](resultados/03-lectura-verificacion/) |
-| 04 | [Revocación](ejercicios/ejercicio-04-revocacion.md) | Schemas revocables y estado revocado | En curso (aún sin publicar) |
+| 04 | [Revocación](ejercicios/ejercicio-04-revocacion.md) | Schemas revocables y estado revocado | Hecho · [resultado](resultados/04-revocacion/) |
 | 05 | [Hash con sal](ejercicios/ejercicio-05-hash-con-sal.md) | Qué va a la cadena y qué no | Pendiente |
 | 06 | [Resolver de emisores](ejercicios/ejercicio-06-resolver.md) | Contrato que autoriza emisores (Hardhat 3) | Pendiente |
 | 07 | [Emisión directa](ejercicios/ejercicio-07-emision-directa.md) | La entidad firma y paga; idempotencia | Pendiente |
@@ -29,12 +29,13 @@ Cada ejercicio es un proyecto TypeScript autocontenido en `resultados/NN-nombre/
 
 ## Lo explorado hasta ahora
 
-Tomado de las notas de los ejercicios 01 a 03 (Base Sepolia, valores de testnet):
+Tomado de las notas de los ejercicios 01 a 04 (Base Sepolia, valores de testnet):
 
 - Los contratos de EAS y del registro de schemas ya están desplegados en Base Sepolia, y no hay que desplegarlos.
 - El SDK de EAS (2.10.0) falló al cargarse como módulo ESM en Node; se resolvió cargando su versión CommonJS.
 - Un schema se identifica por un UID calculable de antemano, que coincidió con el que devolvió la cadena.
 - Consultar un UID inexistente **no** lanza error: devuelve una estructura vacía, y "no encontrado" equivale a UID en ceros.
+- Revocar cuesta ~104.850 de gas, frente a ~429.516 de emitir. Las revocaciones inválidas (otra cuenta, doble revocación, schema no revocable) fallan antes de enviarse y no gastan gas.
 - Gas medido en testnet: registrar un schema ~213.800 y crear una attestation ~429.516. Los costos de testnet no son representativos de producción.
 
 ## Pregunta abierta de interés

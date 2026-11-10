@@ -19,7 +19,7 @@ Cada ejercicio es un proyecto TypeScript autocontenido en `resultados/NN-nombre/
 | 03 | [Lectura y verificación](ejercicios/ejercicio-03-lectura-verificacion.md) | Leer por UID y devolver un estado claro | Hecho · [resultado](resultados/03-lectura-verificacion/) |
 | 04 | [Revocación](ejercicios/ejercicio-04-revocacion.md) | Schemas revocables y estado revocado | Hecho · [resultado](resultados/04-revocacion/) |
 | 05 | [Hash con sal](ejercicios/ejercicio-05-hash-con-sal.md) | Qué va a la cadena y qué no | Hecho · [resultado](resultados/05-hash-con-sal/) |
-| 06 | [Resolver de emisores](ejercicios/ejercicio-06-resolver.md) | Contrato que autoriza emisores (Hardhat 3) | Pendiente |
+| 06 | [Resolver de emisores](ejercicios/ejercicio-06-resolver.md) | Contrato que autoriza emisores (Hardhat 3) | Hecho · [resultado](resultados/06-resolver/) |
 | 07 | [Emisión directa](ejercicios/ejercicio-07-emision-directa.md) | La entidad firma y paga; idempotencia | Pendiente |
 | 08 | [Off-chain firmado](ejercicios/ejercicio-08-offchain.md) | Attestations fuera de la cadena, timestamp | Pendiente |
 | 09 | [Medición de costos](ejercicios/ejercicio-09-costos.md) | Gas por operación y por certificado | Pendiente |

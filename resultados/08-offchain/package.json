@@ -1,0 +1,23 @@
+{
+  "name": "eas-lab-08-offchain",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "firmar": "tsx scripts/firmar-offchain.ts",
+    "verificar": "tsx scripts/verificar-offchain.ts",
+    "timestamp": "tsx scripts/timestamp.ts",
+    "test": "node --import tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ethereum-attestation-service/eas-sdk": "2.10.0",
+    "dotenv": "18.0.9",
+    "ethers": "6.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  }
+}

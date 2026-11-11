@@ -23,7 +23,6 @@ Cada ejercicio es un proyecto TypeScript autocontenido en `resultados/NN-nombre/
 | 07 | [Emisión directa](ejercicios/ejercicio-07-emision-directa.md) | La entidad firma y paga; idempotencia | Hecho · [resultado](resultados/07-emision-directa/) |
 | 08 | [Off-chain firmado](ejercicios/ejercicio-08-offchain.md) | Attestations fuera de la cadena, timestamp | Hecho · [resultado](resultados/08-offchain/) |
 | 09 | [Medición de costos](ejercicios/ejercicio-09-costos.md) | Gas por operación y por certificado | Hecho · [resultado](resultados/09-costos/) |
-| 99 | [Cierre](ejercicios/99-cierre.md) | Consolidar decisiones | Pendiente |
 
 **Ruta sugerida:** 01 → 02 → 03 → 04, luego 05 (independiente), 06 → 07, 08, y 09 al final. Los ejercicios 01 a 05 se recomiendan en modo B (tú escribes el código y Claude revisa).
 

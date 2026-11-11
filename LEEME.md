@@ -131,7 +131,7 @@ Todo el código de los ejercicios se escribe en **TypeScript**, no en JavaScript
 | 07 | `ejercicios/ejercicio-07-emision-directa.md` | Emisión directa e idempotencia | Consola | 02, 06 |
 | 08 | `ejercicios/ejercicio-08-offchain.md` | Off-chain firmado y timestamp | Consola | 02, 03 |
 | 09 | `ejercicios/ejercicio-09-costos.md` | Medición de costos | Consola | 02, 06, 07, 08 |
-| 99 | `ejercicios/99-cierre.md` | Consolidar decisiones | Cierre | todos |
+
 
 ## 7. Plantilla de nota (`NOTA.md` dentro de la carpeta del ejercicio)
 

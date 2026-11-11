@@ -21,8 +21,8 @@ Cada ejercicio es un proyecto TypeScript autocontenido en `resultados/NN-nombre/
 | 05 | [Hash con sal](ejercicios/ejercicio-05-hash-con-sal.md) | Qué va a la cadena y qué no | Hecho · [resultado](resultados/05-hash-con-sal/) |
 | 06 | [Resolver de emisores](ejercicios/ejercicio-06-resolver.md) | Contrato que autoriza emisores (Hardhat 3) | Hecho · [resultado](resultados/06-resolver/) |
 | 07 | [Emisión directa](ejercicios/ejercicio-07-emision-directa.md) | La entidad firma y paga; idempotencia | Hecho · [resultado](resultados/07-emision-directa/) |
-| 08 | [Off-chain firmado](ejercicios/ejercicio-08-offchain.md) | Attestations fuera de la cadena, timestamp | Pendiente |
-| 09 | [Medición de costos](ejercicios/ejercicio-09-costos.md) | Gas por operación y por certificado | Pendiente |
+| 08 | [Off-chain firmado](ejercicios/ejercicio-08-offchain.md) | Attestations fuera de la cadena, timestamp | Hecho · [resultado](resultados/08-offchain/) |
+| 09 | [Medición de costos](ejercicios/ejercicio-09-costos.md) | Gas por operación y por certificado | Hecho · [resultado](resultados/09-costos/) |
 | 99 | [Cierre](ejercicios/99-cierre.md) | Consolidar decisiones | Pendiente |
 
 **Ruta sugerida:** 01 → 02 → 03 → 04, luego 05 (independiente), 06 → 07, 08, y 09 al final. Los ejercicios 01 a 05 se recomiendan en modo B (tú escribes el código y Claude revisa).

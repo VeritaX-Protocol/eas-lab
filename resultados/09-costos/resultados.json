@@ -1,0 +1,1352 @@
+{
+  "red": "Base Sepolia",
+  "chainId": "84532",
+  "fecha": "2026-11-10T19:44:24.448Z",
+  "repeticiones": 20,
+  "operaciones": [
+    {
+      "id": "autorizar",
+      "nombre": "Autorizar un emisor (activar)",
+      "certificadosPorTx": 0,
+      "muestras": [
+        {
+          "gas": "47776",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "286656000000",
+          "l1FeeWei": "165",
+          "totalWei": "286656000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "47776",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "286656000000",
+          "l1FeeWei": "165",
+          "totalWei": "286656000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "47776",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "286656000000",
+          "l1FeeWei": "99",
+          "totalWei": "286656000099",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "47776",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "286656000000",
+          "l1FeeWei": "165",
+          "totalWei": "286656000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "47776",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "286656000000",
+          "l1FeeWei": "165",
+          "totalWei": "286656000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "47776",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "286656000000",
+          "l1FeeWei": "165",
+          "totalWei": "286656000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "47776",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "286656000000",
+          "l1FeeWei": "165",
+          "totalWei": "286656000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "47776",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "286656000000",
+          "l1FeeWei": "99",
+          "totalWei": "286656000099",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "47776",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "286656000000",
+          "l1FeeWei": "165",
+          "totalWei": "286656000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "47776",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "286656000000",
+          "l1FeeWei": "165",
+          "totalWei": "286656000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "47776",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "286656000000",
+          "l1FeeWei": "165",
+          "totalWei": "286656000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "47776",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "286656000000",
+          "l1FeeWei": "165",
+          "totalWei": "286656000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "47776",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "286656000000",
+          "l1FeeWei": "165",
+          "totalWei": "286656000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "47776",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "286656000000",
+          "l1FeeWei": "165",
+          "totalWei": "286656000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "47776",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "286656000000",
+          "l1FeeWei": "99",
+          "totalWei": "286656000099",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "47776",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "286656000000",
+          "l1FeeWei": "99",
+          "totalWei": "286656000099",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "47776",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "286656000000",
+          "l1FeeWei": "99",
+          "totalWei": "286656000099",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "47776",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "286656000000",
+          "l1FeeWei": "165",
+          "totalWei": "286656000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "47776",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "286656000000",
+          "l1FeeWei": "165",
+          "totalWei": "286656000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "47776",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "286656000000",
+          "l1FeeWei": "165",
+          "totalWei": "286656000165",
+          "bytesDatos": 68
+        }
+      ],
+      "completo": true
+    },
+    {
+      "id": "desautorizar",
+      "nombre": "Desautorizar un emisor (desactivar)",
+      "certificadosPorTx": 0,
+      "muestras": [
+        {
+          "gas": "25864",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "155184000000",
+          "l1FeeWei": "165",
+          "totalWei": "155184000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "25864",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "155184000000",
+          "l1FeeWei": "99",
+          "totalWei": "155184000099",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "25864",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "155184000000",
+          "l1FeeWei": "99",
+          "totalWei": "155184000099",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "25864",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "155184000000",
+          "l1FeeWei": "165",
+          "totalWei": "155184000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "25864",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "155184000000",
+          "l1FeeWei": "165",
+          "totalWei": "155184000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "25864",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "155184000000",
+          "l1FeeWei": "165",
+          "totalWei": "155184000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "25864",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "155184000000",
+          "l1FeeWei": "165",
+          "totalWei": "155184000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "25864",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "155184000000",
+          "l1FeeWei": "99",
+          "totalWei": "155184000099",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "25864",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "155184000000",
+          "l1FeeWei": "165",
+          "totalWei": "155184000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "25864",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "155184000000",
+          "l1FeeWei": "165",
+          "totalWei": "155184000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "25864",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "155184000000",
+          "l1FeeWei": "165",
+          "totalWei": "155184000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "25864",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "155184000000",
+          "l1FeeWei": "165",
+          "totalWei": "155184000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "25864",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "155184000000",
+          "l1FeeWei": "165",
+          "totalWei": "155184000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "25864",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "155184000000",
+          "l1FeeWei": "99",
+          "totalWei": "155184000099",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "25864",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "155184000000",
+          "l1FeeWei": "99",
+          "totalWei": "155184000099",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "25864",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "155184000000",
+          "l1FeeWei": "99",
+          "totalWei": "155184000099",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "25864",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "155184000000",
+          "l1FeeWei": "99",
+          "totalWei": "155184000099",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "25864",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "155184000000",
+          "l1FeeWei": "165",
+          "totalWei": "155184000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "25864",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "155184000000",
+          "l1FeeWei": "165",
+          "totalWei": "155184000165",
+          "bytesDatos": 68
+        },
+        {
+          "gas": "25864",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "155184000000",
+          "l1FeeWei": "165",
+          "totalWei": "155184000165",
+          "bytesDatos": 68
+        }
+      ],
+      "completo": true
+    },
+    {
+      "id": "attest",
+      "nombre": "Attestation directa con resolver",
+      "certificadosPorTx": 1,
+      "muestras": [
+        {
+          "gas": "436905",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "2621430000000",
+          "l1FeeWei": "436",
+          "totalWei": "2621430000436",
+          "bytesDatos": 708
+        },
+        {
+          "gas": "436917",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "2621502000000",
+          "l1FeeWei": "430",
+          "totalWei": "2621502000430",
+          "bytesDatos": 708
+        },
+        {
+          "gas": "436917",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "2621502000000",
+          "l1FeeWei": "434",
+          "totalWei": "2621502000434",
+          "bytesDatos": 708
+        },
+        {
+          "gas": "436905",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "2621430000000",
+          "l1FeeWei": "436",
+          "totalWei": "2621430000436",
+          "bytesDatos": 708
+        },
+        {
+          "gas": "436917",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "2621502000000",
+          "l1FeeWei": "436",
+          "totalWei": "2621502000436",
+          "bytesDatos": 708
+        },
+        {
+          "gas": "436917",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "2621502000000",
+          "l1FeeWei": "262",
+          "totalWei": "2621502000262",
+          "bytesDatos": 708
+        },
+        {
+          "gas": "436917",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "2621502000000",
+          "l1FeeWei": "262",
+          "totalWei": "2621502000262",
+          "bytesDatos": 708
+        },
+        {
+          "gas": "436917",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "2621502000000",
+          "l1FeeWei": "262",
+          "totalWei": "2621502000262",
+          "bytesDatos": 708
+        },
+        {
+          "gas": "436917",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "2621502000000",
+          "l1FeeWei": "436",
+          "totalWei": "2621502000436",
+          "bytesDatos": 708
+        },
+        {
+          "gas": "436917",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "2621502000000",
+          "l1FeeWei": "436",
+          "totalWei": "2621502000436",
+          "bytesDatos": 708
+        },
+        {
+          "gas": "436917",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "2621502000000",
+          "l1FeeWei": "436",
+          "totalWei": "2621502000436",
+          "bytesDatos": 708
+        },
+        {
+          "gas": "436917",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "2621502000000",
+          "l1FeeWei": "436",
+          "totalWei": "2621502000436",
+          "bytesDatos": 708
+        },
+        {
+          "gas": "436917",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "2621502000000",
+          "l1FeeWei": "257",
+          "totalWei": "2621502000257",
+          "bytesDatos": 708
+        },
+        {
+          "gas": "436917",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "2621502000000",
+          "l1FeeWei": "256",
+          "totalWei": "2621502000256",
+          "bytesDatos": 708
+        },
+        {
+          "gas": "436905",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "2621430000000",
+          "l1FeeWei": "257",
+          "totalWei": "2621430000257",
+          "bytesDatos": 708
+        },
+        {
+          "gas": "436917",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "2621502000000",
+          "l1FeeWei": "253",
+          "totalWei": "2621502000253",
+          "bytesDatos": 708
+        },
+        {
+          "gas": "436917",
+          "precioEfectivoWei": "6010935",
+          "feeL2Wei": "2626279687395",
+          "l1FeeWei": "252",
+          "totalWei": "2626279687647",
+          "bytesDatos": 708
+        },
+        {
+          "gas": "436917",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "2621502000000",
+          "l1FeeWei": "252",
+          "totalWei": "2621502000252",
+          "bytesDatos": 708
+        },
+        {
+          "gas": "436917",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "2621502000000",
+          "l1FeeWei": "252",
+          "totalWei": "2621502000252",
+          "bytesDatos": 708
+        },
+        {
+          "gas": "436917",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "2621502000000",
+          "l1FeeWei": "252",
+          "totalWei": "2621502000252",
+          "bytesDatos": 708
+        }
+      ],
+      "completo": true
+    },
+    {
+      "id": "revocar",
+      "nombre": "Revocación",
+      "certificadosPorTx": 1,
+      "muestras": [
+        {
+          "gas": "109821",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "658926000000",
+          "l1FeeWei": "173",
+          "totalWei": "658926000173",
+          "bytesDatos": 100
+        },
+        {
+          "gas": "109821",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "658926000000",
+          "l1FeeWei": "173",
+          "totalWei": "658926000173",
+          "bytesDatos": 100
+        },
+        {
+          "gas": "109821",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "658926000000",
+          "l1FeeWei": "173",
+          "totalWei": "658926000173",
+          "bytesDatos": 100
+        },
+        {
+          "gas": "109821",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "658926000000",
+          "l1FeeWei": "173",
+          "totalWei": "658926000173",
+          "bytesDatos": 100
+        },
+        {
+          "gas": "109821",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "658926000000",
+          "l1FeeWei": "173",
+          "totalWei": "658926000173",
+          "bytesDatos": 100
+        },
+        {
+          "gas": "109821",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "658926000000",
+          "l1FeeWei": "173",
+          "totalWei": "658926000173",
+          "bytesDatos": 100
+        },
+        {
+          "gas": "109821",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "658926000000",
+          "l1FeeWei": "173",
+          "totalWei": "658926000173",
+          "bytesDatos": 100
+        },
+        {
+          "gas": "109821",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "658926000000",
+          "l1FeeWei": "173",
+          "totalWei": "658926000173",
+          "bytesDatos": 100
+        },
+        {
+          "gas": "109821",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "658926000000",
+          "l1FeeWei": "173",
+          "totalWei": "658926000173",
+          "bytesDatos": 100
+        },
+        {
+          "gas": "109821",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "658926000000",
+          "l1FeeWei": "173",
+          "totalWei": "658926000173",
+          "bytesDatos": 100
+        },
+        {
+          "gas": "109821",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "658926000000",
+          "l1FeeWei": "173",
+          "totalWei": "658926000173",
+          "bytesDatos": 100
+        },
+        {
+          "gas": "109821",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "658926000000",
+          "l1FeeWei": "102",
+          "totalWei": "658926000102",
+          "bytesDatos": 100
+        },
+        {
+          "gas": "109821",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "658926000000",
+          "l1FeeWei": "102",
+          "totalWei": "658926000102",
+          "bytesDatos": 100
+        },
+        {
+          "gas": "109821",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "658926000000",
+          "l1FeeWei": "102",
+          "totalWei": "658926000102",
+          "bytesDatos": 100
+        },
+        {
+          "gas": "109821",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "658926000000",
+          "l1FeeWei": "102",
+          "totalWei": "658926000102",
+          "bytesDatos": 100
+        },
+        {
+          "gas": "109821",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "658926000000",
+          "l1FeeWei": "102",
+          "totalWei": "658926000102",
+          "bytesDatos": 100
+        },
+        {
+          "gas": "109821",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "658926000000",
+          "l1FeeWei": "102",
+          "totalWei": "658926000102",
+          "bytesDatos": 100
+        },
+        {
+          "gas": "109821",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "658926000000",
+          "l1FeeWei": "102",
+          "totalWei": "658926000102",
+          "bytesDatos": 100
+        },
+        {
+          "gas": "109821",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "658926000000",
+          "l1FeeWei": "102",
+          "totalWei": "658926000102",
+          "bytesDatos": 100
+        },
+        {
+          "gas": "109809",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "658854000000",
+          "l1FeeWei": "173",
+          "totalWei": "658854000173",
+          "bytesDatos": 100
+        }
+      ],
+      "completo": true
+    },
+    {
+      "id": "multiattest10",
+      "nombre": "Attestation en lote de 10",
+      "certificadosPorTx": 10,
+      "muestras": [
+        {
+          "gas": "3823031",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "22938186000000",
+          "l1FeeWei": "1961",
+          "totalWei": "22938186001961",
+          "bytesDatos": 6596
+        },
+        {
+          "gas": "3823067",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "22938402000000",
+          "l1FeeWei": "1958",
+          "totalWei": "22938402001958",
+          "bytesDatos": 6596
+        },
+        {
+          "gas": "3823043",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "22938258000000",
+          "l1FeeWei": "1962",
+          "totalWei": "22938258001962",
+          "bytesDatos": 6596
+        },
+        {
+          "gas": "3823079",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "22938474000000",
+          "l1FeeWei": "1165",
+          "totalWei": "22938474001165",
+          "bytesDatos": 6596
+        },
+        {
+          "gas": "3822995",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "22937970000000",
+          "l1FeeWei": "1161",
+          "totalWei": "22937970001161",
+          "bytesDatos": 6596
+        },
+        {
+          "gas": "3823019",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "22938114000000",
+          "l1FeeWei": "1178",
+          "totalWei": "22938114001178",
+          "bytesDatos": 6596
+        },
+        {
+          "gas": "3823043",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "22938258000000",
+          "l1FeeWei": "1167",
+          "totalWei": "22938258001167",
+          "bytesDatos": 6596
+        },
+        {
+          "gas": "3823055",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "22938330000000",
+          "l1FeeWei": "1984",
+          "totalWei": "22938330001984",
+          "bytesDatos": 6596
+        },
+        {
+          "gas": "3823007",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "22938042000000",
+          "l1FeeWei": "1993",
+          "totalWei": "22938042001993",
+          "bytesDatos": 6596
+        },
+        {
+          "gas": "3823019",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "22938114000000",
+          "l1FeeWei": "1178",
+          "totalWei": "22938114001178",
+          "bytesDatos": 6596
+        },
+        {
+          "gas": "3823007",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "22938042000000",
+          "l1FeeWei": "1957",
+          "totalWei": "22938042001957",
+          "bytesDatos": 6596
+        },
+        {
+          "gas": "3823019",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "22938114000000",
+          "l1FeeWei": "1989",
+          "totalWei": "22938114001989",
+          "bytesDatos": 6596
+        },
+        {
+          "gas": "3823019",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "22938114000000",
+          "l1FeeWei": "2001",
+          "totalWei": "22938114002001",
+          "bytesDatos": 6596
+        },
+        {
+          "gas": "3823007",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "22938042000000",
+          "l1FeeWei": "1174",
+          "totalWei": "22938042001174",
+          "bytesDatos": 6596
+        },
+        {
+          "gas": "3823007",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "22938042000000",
+          "l1FeeWei": "1178",
+          "totalWei": "22938042001178",
+          "bytesDatos": 6596
+        },
+        {
+          "gas": "3823043",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "22938258000000",
+          "l1FeeWei": "1167",
+          "totalWei": "22938258001167",
+          "bytesDatos": 6596
+        },
+        {
+          "gas": "3822995",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "22937970000000",
+          "l1FeeWei": "1174",
+          "totalWei": "22937970001174",
+          "bytesDatos": 6596
+        },
+        {
+          "gas": "3823007",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "22938042000000",
+          "l1FeeWei": "1163",
+          "totalWei": "22938042001163",
+          "bytesDatos": 6596
+        },
+        {
+          "gas": "3823043",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "22938258000000",
+          "l1FeeWei": "1171",
+          "totalWei": "22938258001171",
+          "bytesDatos": 6596
+        },
+        {
+          "gas": "3822995",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "22937970000000",
+          "l1FeeWei": "1991",
+          "totalWei": "22937970001991",
+          "bytesDatos": 6596
+        }
+      ],
+      "completo": true
+    },
+    {
+      "id": "timestamp1",
+      "nombre": "Timestamp individual",
+      "certificadosPorTx": 1,
+      "muestras": [
+        {
+          "gas": "50834",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "305004000000",
+          "l1FeeWei": "161",
+          "totalWei": "305004000161",
+          "bytesDatos": 36
+        },
+        {
+          "gas": "50834",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "305004000000",
+          "l1FeeWei": "161",
+          "totalWei": "305004000161",
+          "bytesDatos": 36
+        },
+        {
+          "gas": "50834",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "305004000000",
+          "l1FeeWei": "161",
+          "totalWei": "305004000161",
+          "bytesDatos": 36
+        },
+        {
+          "gas": "50834",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "305004000000",
+          "l1FeeWei": "161",
+          "totalWei": "305004000161",
+          "bytesDatos": 36
+        },
+        {
+          "gas": "50834",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "305004000000",
+          "l1FeeWei": "161",
+          "totalWei": "305004000161",
+          "bytesDatos": 36
+        },
+        {
+          "gas": "50822",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "304932000000",
+          "l1FeeWei": "161",
+          "totalWei": "304932000161",
+          "bytesDatos": 36
+        },
+        {
+          "gas": "50834",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "305004000000",
+          "l1FeeWei": "161",
+          "totalWei": "305004000161",
+          "bytesDatos": 36
+        },
+        {
+          "gas": "50834",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "305004000000",
+          "l1FeeWei": "161",
+          "totalWei": "305004000161",
+          "bytesDatos": 36
+        },
+        {
+          "gas": "50834",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "305004000000",
+          "l1FeeWei": "161",
+          "totalWei": "305004000161",
+          "bytesDatos": 36
+        },
+        {
+          "gas": "50834",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "305004000000",
+          "l1FeeWei": "161",
+          "totalWei": "305004000161",
+          "bytesDatos": 36
+        },
+        {
+          "gas": "50822",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "304932000000",
+          "l1FeeWei": "161",
+          "totalWei": "304932000161",
+          "bytesDatos": 36
+        },
+        {
+          "gas": "50834",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "305004000000",
+          "l1FeeWei": "161",
+          "totalWei": "305004000161",
+          "bytesDatos": 36
+        },
+        {
+          "gas": "50834",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "305004000000",
+          "l1FeeWei": "161",
+          "totalWei": "305004000161",
+          "bytesDatos": 36
+        },
+        {
+          "gas": "50834",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "305004000000",
+          "l1FeeWei": "161",
+          "totalWei": "305004000161",
+          "bytesDatos": 36
+        },
+        {
+          "gas": "50834",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "305004000000",
+          "l1FeeWei": "161",
+          "totalWei": "305004000161",
+          "bytesDatos": 36
+        },
+        {
+          "gas": "50834",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "305004000000",
+          "l1FeeWei": "95",
+          "totalWei": "305004000095",
+          "bytesDatos": 36
+        },
+        {
+          "gas": "50834",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "305004000000",
+          "l1FeeWei": "95",
+          "totalWei": "305004000095",
+          "bytesDatos": 36
+        },
+        {
+          "gas": "50822",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "304932000000",
+          "l1FeeWei": "95",
+          "totalWei": "304932000095",
+          "bytesDatos": 36
+        },
+        {
+          "gas": "50834",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "305004000000",
+          "l1FeeWei": "95",
+          "totalWei": "305004000095",
+          "bytesDatos": 36
+        },
+        {
+          "gas": "50834",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "305004000000",
+          "l1FeeWei": "95",
+          "totalWei": "305004000095",
+          "bytesDatos": 36
+        }
+      ],
+      "completo": true
+    },
+    {
+      "id": "timestamp10",
+      "nombre": "Timestamp en lote de 10",
+      "certificadosPorTx": 10,
+      "muestras": [
+        {
+          "gas": "272663",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "1635978000000",
+          "l1FeeWei": "551",
+          "totalWei": "1635978000551",
+          "bytesDatos": 388
+        },
+        {
+          "gas": "272615",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "1635690000000",
+          "l1FeeWei": "323",
+          "totalWei": "1635690000323",
+          "bytesDatos": 388
+        },
+        {
+          "gas": "272639",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "1635834000000",
+          "l1FeeWei": "323",
+          "totalWei": "1635834000323",
+          "bytesDatos": 388
+        },
+        {
+          "gas": "272651",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "1635906000000",
+          "l1FeeWei": "323",
+          "totalWei": "1635906000323",
+          "bytesDatos": 388
+        },
+        {
+          "gas": "272663",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "1635978000000",
+          "l1FeeWei": "551",
+          "totalWei": "1635978000551",
+          "bytesDatos": 388
+        },
+        {
+          "gas": "272651",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "1635906000000",
+          "l1FeeWei": "551",
+          "totalWei": "1635906000551",
+          "bytesDatos": 388
+        },
+        {
+          "gas": "272651",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "1635906000000",
+          "l1FeeWei": "551",
+          "totalWei": "1635906000551",
+          "bytesDatos": 388
+        },
+        {
+          "gas": "272651",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "1635906000000",
+          "l1FeeWei": "551",
+          "totalWei": "1635906000551",
+          "bytesDatos": 388
+        },
+        {
+          "gas": "272663",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "1635978000000",
+          "l1FeeWei": "551",
+          "totalWei": "1635978000551",
+          "bytesDatos": 388
+        },
+        {
+          "gas": "272663",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "1635978000000",
+          "l1FeeWei": "545",
+          "totalWei": "1635978000545",
+          "bytesDatos": 388
+        },
+        {
+          "gas": "272627",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "1635762000000",
+          "l1FeeWei": "323",
+          "totalWei": "1635762000323",
+          "bytesDatos": 388
+        },
+        {
+          "gas": "272639",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "1635834000000",
+          "l1FeeWei": "323",
+          "totalWei": "1635834000323",
+          "bytesDatos": 388
+        },
+        {
+          "gas": "272651",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "1635906000000",
+          "l1FeeWei": "323",
+          "totalWei": "1635906000323",
+          "bytesDatos": 388
+        },
+        {
+          "gas": "272663",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "1635978000000",
+          "l1FeeWei": "323",
+          "totalWei": "1635978000323",
+          "bytesDatos": 388
+        },
+        {
+          "gas": "272663",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "1635978000000",
+          "l1FeeWei": "545",
+          "totalWei": "1635978000545",
+          "bytesDatos": 388
+        },
+        {
+          "gas": "272639",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "1635834000000",
+          "l1FeeWei": "545",
+          "totalWei": "1635834000545",
+          "bytesDatos": 388
+        },
+        {
+          "gas": "272639",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "1635834000000",
+          "l1FeeWei": "545",
+          "totalWei": "1635834000545",
+          "bytesDatos": 388
+        },
+        {
+          "gas": "272627",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "1635762000000",
+          "l1FeeWei": "545",
+          "totalWei": "1635762000545",
+          "bytesDatos": 388
+        },
+        {
+          "gas": "272615",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "1635690000000",
+          "l1FeeWei": "545",
+          "totalWei": "1635690000545",
+          "bytesDatos": 388
+        },
+        {
+          "gas": "272615",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "1635690000000",
+          "l1FeeWei": "545",
+          "totalWei": "1635690000545",
+          "bytesDatos": 388
+        }
+      ],
+      "completo": true
+    },
+    {
+      "id": "timestamp100",
+      "nombre": "Timestamp en lote de 100",
+      "certificadosPorTx": 100,
+      "muestras": [
+        {
+          "gas": "2483521",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "14901126000000",
+          "l1FeeWei": "4568",
+          "totalWei": "14901126004568",
+          "bytesDatos": 3268
+        },
+        {
+          "gas": "2483533",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "14901198000000",
+          "l1FeeWei": "4567",
+          "totalWei": "14901198004567",
+          "bytesDatos": 3268
+        },
+        {
+          "gas": "2483617",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "14901702000000",
+          "l1FeeWei": "2706",
+          "totalWei": "14901702002706",
+          "bytesDatos": 3268
+        },
+        {
+          "gas": "2483545",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "14901270000000",
+          "l1FeeWei": "2706",
+          "totalWei": "14901270002706",
+          "bytesDatos": 3268
+        },
+        {
+          "gas": "2483473",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "14900838000000",
+          "l1FeeWei": "4568",
+          "totalWei": "14900838004568",
+          "bytesDatos": 3268
+        },
+        {
+          "gas": "2483629",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "14901774000000",
+          "l1FeeWei": "4568",
+          "totalWei": "14901774004568",
+          "bytesDatos": 3268
+        },
+        {
+          "gas": "2483605",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "14901630000000",
+          "l1FeeWei": "4568",
+          "totalWei": "14901630004568",
+          "bytesDatos": 3268
+        },
+        {
+          "gas": "2483593",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "14901558000000",
+          "l1FeeWei": "2706",
+          "totalWei": "14901558002706",
+          "bytesDatos": 3268
+        },
+        {
+          "gas": "2483533",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "14901198000000",
+          "l1FeeWei": "2706",
+          "totalWei": "14901198002706",
+          "bytesDatos": 3268
+        },
+        {
+          "gas": "2483653",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "14901918000000",
+          "l1FeeWei": "2706",
+          "totalWei": "14901918002706",
+          "bytesDatos": 3268
+        },
+        {
+          "gas": "2483569",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "14901414000000",
+          "l1FeeWei": "2706",
+          "totalWei": "14901414002706",
+          "bytesDatos": 3268
+        },
+        {
+          "gas": "2483593",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "14901558000000",
+          "l1FeeWei": "4568",
+          "totalWei": "14901558004568",
+          "bytesDatos": 3268
+        },
+        {
+          "gas": "2483569",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "14901414000000",
+          "l1FeeWei": "4568",
+          "totalWei": "14901414004568",
+          "bytesDatos": 3268
+        },
+        {
+          "gas": "2483665",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "14901990000000",
+          "l1FeeWei": "4568",
+          "totalWei": "14901990004568",
+          "bytesDatos": 3268
+        },
+        {
+          "gas": "2483569",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "14901414000000",
+          "l1FeeWei": "4568",
+          "totalWei": "14901414004568",
+          "bytesDatos": 3268
+        },
+        {
+          "gas": "2483533",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "14901198000000",
+          "l1FeeWei": "4568",
+          "totalWei": "14901198004568",
+          "bytesDatos": 3268
+        },
+        {
+          "gas": "2483581",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "14901486000000",
+          "l1FeeWei": "4567",
+          "totalWei": "14901486004567",
+          "bytesDatos": 3268
+        },
+        {
+          "gas": "2483605",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "14901630000000",
+          "l1FeeWei": "4568",
+          "totalWei": "14901630004568",
+          "bytesDatos": 3268
+        },
+        {
+          "gas": "2483497",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "14900982000000",
+          "l1FeeWei": "4568",
+          "totalWei": "14900982004568",
+          "bytesDatos": 3268
+        },
+        {
+          "gas": "2483569",
+          "precioEfectivoWei": "6000000",
+          "feeL2Wei": "14901414000000",
+          "l1FeeWei": "4567",
+          "totalWei": "14901414004567",
+          "bytesDatos": 3268
+        }
+      ],
+      "completo": true
+    }
+  ]
+}

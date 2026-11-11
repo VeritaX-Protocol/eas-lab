@@ -1,0 +1,6 @@
+{
+  "_nota": "Valores de ENTRADA editables para convertir gas a dinero. Son null a propósito: no se inventan. Consulta fuentes actuales antes de poner precios.",
+  "precioEthUsd": null,
+  "precioGasGwei": null,
+  "l1FeeEthPorByte": null
+}

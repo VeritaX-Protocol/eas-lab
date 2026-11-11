@@ -1,0 +1,16 @@
+# Nota del ejercicio 09
+Fecha: 2026-11-10
+Versiones usadas (Node, paquetes, Hardhat): Node 26.13.0; ethers 6.17.0; @ethereum-attestation-service/eas-sdk 2.10.0; dotenv 18.0.9; tsx 4.23.15; typescript 7.0.2; @types/node 26.6.5. Sin Hardhat.
+Código o datos copiados de otros ejercicios (y de cuál): del 07: src/config, wallets, eas, cadena, esquema, emision, errores, tsconfig y `.env.local` (copiado del 08). Del 06, vía 07: resolver y schema UID en `datos-entrada.json`.
+Qué hice: medí 8 operaciones, 20 repeticiones cada una, en Base Sepolia, leyendo el recibo crudo para obtener `l1Fee`. Generé `informe.md` con costo por transacción, por certificado y escenarios mensuales.
+Qué funcionó: todas las operaciones completaron las 20 muestras. El gas varía muy poco entre repeticiones (p. ej. attestation directa 436.905–436.917). El informe es reproducible sin red desde `resultados.json`.
+Qué falló o me sorprendió: repetir `autorizar(true)` solo medía un cambio de estado real (las demás veces no cambia nada y cuesta menos); lo corregí alternando activar y desactivar. El `l1Fee` en Base Sepolia es ínfimo (~436 wei), así que el reparto L2/L1 de testnet no sirve para mainnet. Los timestamps los pagó `admin` para proteger el saldo limitado de `emisorA`.
+Nombres de funciones del SDK que difirieron del plan: `eas.attest()` solo prepara la transacción; `tx.wait()` la envía. `eas.multiAttest` y `eas.multiTimestamp` para lotes. El `l1Fee` no está en el recibo de ethers: se pide con `eth_getTransactionReceipt` crudo (campo `l1Fee`); total = gasUsed × effectiveGasPrice + l1Fee.
+Decisión para la especificación: el costo se expresa como rango por certificado, con precios parametrizados (`parametros.json`) y no fijos. Anclar timestamps por lote ahorra ~50% de gas por certificado; la attestation en lote solo ahorra ~12%, porque el costo dominante es el almacenamiento de cada attestation. Los precios en USD quedan sin definir hasta contar con precios reales de mainnet.
+Costos o tiempos medidos (gas promedio, testnet, no representativo): autorizar 47.776; desautorizar 25.864; attestation directa 436.915; revocación 109.820; attestation en lote de 10: 3.823.025 (382.301 por cert.); timestamp individual 50.832; lote de 10: 272.644 (27.264 por cert.); lote de 100: 2.483.572 (24.835 por cert.).
+Preguntas abiertas: ¿cuál es el `l1Fee` real por byte en Base mainnet hoy y cómo cambia tras EIP-4844? ¿qué porcentaje de certificados se revoca? (no está en los escenarios). ¿Hay un tamaño de lote máximo útil para attestations (límite de gas por bloque)?
+
+Preguntas de comprensión:
+1. Lo que más influye en la parte L1 del costo es el tamaño de los datos de la transacción (bytes), no el gas de ejecución; por eso una attestation con datos grandes cuesta más en L1.
+2. Agrupar reparte el costo fijo de la transacción (21.000 de gas base y la sobrecarga de llamada) entre varios certificados; el ahorro es grande en timestamps y pequeño en attestations, que dominan por el almacenamiento.
+3. Para cubrir la variación del precio del gas: parametrizar el precio, cobrar con un margen sobre el costo medido y revisar los precios periódicamente (o actualizarlos automáticamente desde una fuente confiable).
